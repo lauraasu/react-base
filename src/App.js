@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import './gfx/main.scss';
 import views from './views';
 import createDevTools from './components/dev-tools/create-dev-tools';
 

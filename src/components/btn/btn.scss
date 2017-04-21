@@ -1,0 +1,60 @@
+//Button
+/*
+.btn {
+	display: inline-block;
+	padding: 11px 20px;
+	cursor: pointer;
+	transition: .2s;
+	border: none;
+	border-radius: 2px;
+	background-color: #20a81a;
+	color: #fff;
+	&:hover {
+		background-color: #169210;
+	}
+	&:focus {
+		background-color: #169210;
+		outline: #169210 auto 5px;
+	}
+	&--alt {
+		background: #999;
+		&:hover {
+			background: #888;
+		}
+		&:focus {
+			background: #777;
+			outline: #777 auto 5px;
+		}
+	}
+	&--fluid {
+		display: block;
+		width: 100%;
+	}
+	&--link {
+		display: inline-block;
+		padding-bottom: 0;
+		padding-right: 0;
+		padding-left: 0;
+		margin-bottom: 7px;
+		transition: .1s;
+		border: none;
+		border-bottom: 1px solid $color-identity-light;
+		border-radius: 0;
+		background-color: transparent;
+		color: $color-identity-light;
+		text-decoration: none;
+		&.btn--empty {
+			border-style: dashed;
+		}
+		&:hover {
+			background-color: transparent;
+			color: $color-identity-dark;
+		}
+		&:focus {
+			outline: $color-identity-light auto 5px;
+			background-color: transparent;
+			color: $color-identity-dark;
+		}
+	}
+}
+*/

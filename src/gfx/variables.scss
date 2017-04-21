@@ -1,0 +1,61 @@
+//Poject specific identity color and width of the content
+$color-identity: #f6d258;
+$color-identity-alt: #fdf4d5;
+$content-max-width: 1300px;
+//Color
+$color-main: #15151b;
+$color-main-alt: #455a64;
+$color-proto: #2f2f2f;
+
+$color-error: #d04646;
+$color-info: #6894ab;
+$color-success: #2db36f;
+
+$color-infotext: #e8f2ff;
+//Icons
+$icon-error: "\f06a";
+$icon-info: "\f129";
+$icon-success: "\f00c";
+//Padding
+$page-padding-m: 25px;
+$page-padding-s: 10px;
+// Font
+$font-color: $color-main;
+$font-color-invert: #fff;
+$font-name: 'Open Sans', san-serif;
+//
+//Color mixes
+//
+$color-identity-light: darken( $color-identity, 6%);
+$color-identity-dark: darken( $color-identity, 15%);
+$color-border: lighten( $color-main, 77%);
+$color-input: lighten( $color-main, 60%);
+$color-background: lighten( $color-main, 80%);
+
+// Grid
+// Extra small (... - 599px)
+// Use the modifier "-xs" when defining classes.
+$break-xs: 320px;
+// Small (600px - 1023px)
+// Use the modifier "-sm" when defining classes.
+$break-sm: 600px;
+// Medium (1024px - 1199px)
+// Use the modifier "-md" when defining classes.
+$break-md: 1024px;
+// Large (1200px - ...)
+// Use the modifier "-lg" when defining classes.
+$break-lg: 1200px;
+// Grid
+$grid-columns: 12;
+$grid-gutter: 25px;
+
+// Font sizes
+$base-font-size: 14px !default;
+
+//Heading font sizes
+$font-size-h1: 2rem !default;
+$font-size-h2: 1.5rem !default;
+$font-size-h3: 1.25rem !default;
+$font-size-h4: 1rem !default;
+$font-size-h5: .85rem !default;
+$font-size-h6: .7rem !default;

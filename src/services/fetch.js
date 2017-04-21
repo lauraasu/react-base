@@ -42,7 +42,7 @@ export function parseJson(response) {
 		return response.json();
 	}
 
-	// return just text if no json header was found
+	// return just text if no json input-radio was found
 	return response.text();
 }
 

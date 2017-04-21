@@ -1,4 +1,4 @@
-import { NamedModulesPlugin } from 'webpack';
+import webpack, { NamedModulesPlugin } from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import ExtractTextWebpackPlugin from 'extract-text-webpack-plugin';
 import autoprefixer from 'autoprefixer';
@@ -152,6 +152,9 @@ const config = {
 	plugins: [
 		// use actual module names not just ids
 		new NamedModulesPlugin(),
+
+		// optimize order
+		new webpack.optimize.OccurrenceOrderPlugin(),
 
 		// generate the index html file
 		new HtmlWebpackPlugin({

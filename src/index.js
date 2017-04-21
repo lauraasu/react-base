@@ -8,7 +8,6 @@ import configureGraphql from './services/configure-graphql';
 
 // get the root view and styles
 import App from './App';
-import './gfx/main.scss';
 
 // configure dependencies
 const store = configureStore();
